@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ShareX - 任務設定</value>
+  </data>
+  <data name="btnActionsAdd.Text" xml:space="preserve">
+    <value>加入</value>
+  </data>
+  <data name="btnActionsDuplicate.Text" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="btnActionsEdit.Text" xml:space="preserve">
+    <value>編輯</value>
+  </data>
+  <data name="btnActionsRemove.Text" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="btnAfterCapture.Text" xml:space="preserve">
+    <value>擷取後...</value>
+  </data>
+  <data name="btnAfterUpload.Text" xml:space="preserve">
+    <value>上傳後...</value>
+  </data>
+  <data name="btnDestinations.Text" xml:space="preserve">
+    <value>目的地...</value>
+  </data>
+  <data name="btnEncoderConfig.Text" xml:space="preserve">
+    <value>配置檔案...</value>
+  </data>
+  <data name="btnImageEffects.Text" xml:space="preserve">
+    <value>圖片效果的配置...</value>
+  </data>
+  <data name="btnResetAutoIncrementNumber.Text" xml:space="preserve">
+    <value>重置自動增數</value>
+  </data>
+  <data name="btnTask.Text" xml:space="preserve">
+    <value>任務...</value>
+  </data>
+  <data name="btnWatchFolderAdd.Text" xml:space="preserve">
+    <value>加入...</value>
+  </data>
+  <data name="btnWatchFolderRemove.Text" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="cbCaptureAutoHideTaskbar.Text" xml:space="preserve">
+    <value>擷取視窗時，如果視窗與工作列重疊，則隱藏工作列</value>
+  </data>
+  <data name="cbCaptureClientArea.Text" xml:space="preserve">
+    <value>擷取視窗或活動視窗時，擷取客戶端區域</value>
+  </data>
+  <data name="cbCaptureShadow.Text" xml:space="preserve">
+    <value>擷取視窗陰影 (需要透明度)</value>
+  </data>
+  <data name="cbCaptureTransparent.Text" xml:space="preserve">
+    <value>擷取具有透明度的視窗</value>
+  </data>
+  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
+    <value>如果剪貼簿中包含的資料夾路徑，則自動索引資料夾並上傳索引。</value>
+  </data>
+  <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
+    <value>如果剪貼簿中包含一個 URL 連結, 則使用 URL 分享服務分享。</value>
+  </data>
+  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
+    <value>如果剪貼簿中包含一個 URL 連結, 則使用短縮 URL 來縮短。</value>
+  </data>
+  <data name="cbFileUploadUseNamePattern.Text" xml:space="preserve">
+    <value>使用以上的檔案名稱格式配置上傳，而不使用實際檔案名稱上傳。</value>
+  </data>
+  <data name="cbImageEffectOnlyRegionCapture.Text" xml:space="preserve">
+    <value>僅適用於區域擷取</value>
+  </data>
+  <data name="cbPlaySoundAfterCapture.Text" xml:space="preserve">
+    <value>擷取後聲音提示</value>
+  </data>
+  <data name="cbPlaySoundAfterUpload.Text" xml:space="preserve">
+    <value>上傳後聲音提示</value>
+  </data>
+  <data name="cbScreenRecorderFixedDuration.Text" xml:space="preserve">
+    <value>固定時長:</value>
+  </data>
+  <data name="cbScreenshotDelay.Text" xml:space="preserve">
+    <value>擷取延遲:</value>
+  </data>
+  <data name="cbShowCursor.Text" xml:space="preserve">
+    <value>在螢幕擷取上顯示指標</value>
+  </data>
+  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
+    <value>只有當圖片尺寸大於縮略圖大小時才建立縮略圖</value>
+  </data>
+  <data name="cbUseDefaultAfterCaptureSettings.Text" xml:space="preserve">
+    <value>使用預設的 "擷取後" 設定</value>
+  </data>
+  <data name="cbUseDefaultAfterUploadSettings.Text" xml:space="preserve">
+    <value>使用預設的 "上傳後" 設定</value>
+  </data>
+  <data name="cbUseDefaultDestinationSettings.Text" xml:space="preserve">
+    <value>使用預設的 "描述" 設定</value>
+  </data>
+  <data name="cbWatchFolderEnabled.Text" xml:space="preserve">
+    <value>監控資料夾，如果發現新的檔案自動上傳。</value>
+  </data>
+  <data name="chActionsArgs.Text" xml:space="preserve">
+    <value>參數</value>
+  </data>
+  <data name="chActionsExtensions.Text" xml:space="preserve">
+    <value>擴展</value>
+  </data>
+  <data name="chActionsName.Text" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="chActionsPath.Text" xml:space="preserve">
+    <value>路徑</value>
+  </data>
+  <data name="chkClipboardUploadURLContents.Text" xml:space="preserve">
+    <value>如果剪貼簿中包含一個檔案 URL 連結，則自動下載並上傳。</value>
+  </data>
+  <data name="chkOverrideCustomUploader.Text" xml:space="preserve">
+    <value>覆蓋預設的自訂上傳:</value>
+  </data>
+  <data name="chkOverrideFTP.Text" xml:space="preserve">
+    <value>覆蓋預設的 FTP 帳號:</value>
+  </data>
+  <data name="chkRunScreencastCLI.Text" xml:space="preserve">
+    <value>之後執行 CLI:</value>
+  </data>
+  <data name="chkScreenRecordAutoStart.Text" xml:space="preserve">
+    <value>開始錄製後:</value>
+  </data>
+  <data name="chkShowImageEffectsWindowAfterCapture.Text" xml:space="preserve">
+    <value>擷取後顯示圖片效果視窗</value>
+  </data>
+  <data name="chkUseDefaultActions.Text" xml:space="preserve">
+    <value>使用主視窗中的任務設定行動</value>
+  </data>
+  <data name="chkUseDefaultAdvancedSettings.Text" xml:space="preserve">
+    <value>使用主視窗任務設定的進階設定</value>
+  </data>
+  <data name="chkUseDefaultCaptureSettings.Text" xml:space="preserve">
+    <value>使用主視窗任務設定的擷取設定</value>
+  </data>
+  <data name="chkUseDefaultGeneralSettings.Text" xml:space="preserve">
+    <value>使用主視窗任務設定的一般設定</value>
+  </data>
+  <data name="chkUseDefaultImageSettings.Text" xml:space="preserve">
+    <value>使用主視窗任務設定的圖片設定</value>
+  </data>
+  <data name="chkUseDefaultUploadSettings.Text" xml:space="preserve">
+    <value>使用主視窗任務設定的上傳設定</value>
+  </data>
+  <data name="chWatchFolderFilter.Text" xml:space="preserve">
+    <value>過濾器</value>
+  </data>
+  <data name="chWatchFolderFolderPath.Text" xml:space="preserve">
+    <value>資料夾路徑</value>
+  </data>
+  <data name="chWatchFolderIncludeSubdirectories.Text" xml:space="preserve">
+    <value>包括子目錄</value>
+  </data>
+  <data name="lblAfterTaskNotification.Text" xml:space="preserve">
+    <value>任務完成後:</value>
+  </data>
+  <data name="lblCaptureShadowOffset.Text" xml:space="preserve">
+    <value>陰影偏移:</value>
+  </data>
+  <data name="lblDescription.Text" xml:space="preserve">
+    <value>描述:</value>
+  </data>
+  <data name="lblGIFFPS.Text" xml:space="preserve">
+    <value>GIF FPS:</value>
+  </data>
+  <data name="lblImageEffectsNote.Text" xml:space="preserve">
+    <value>您可以在 "擷取後的動作 -&gt;加入圖片效果" 啟用/禁用圖片效果。</value>
+  </data>
+  <data name="lblImageFileExist.Text" xml:space="preserve">
+    <value>如果檔案存在:</value>
+  </data>
+  <data name="lblImageFormat.Text" xml:space="preserve">
+    <value>圖片格式:</value>
+  </data>
+  <data name="lblImageFormat2.Text" xml:space="preserve">
+    <value>圖片格式 2:</value>
+  </data>
+  <data name="lblImageGIFQuality.Text" xml:space="preserve">
+    <value>GIF 品質:</value>
+  </data>
+  <data name="lblImageJPEGQuality.Text" xml:space="preserve">
+    <value>JPEG 品質:</value>
+  </data>
+  <data name="lblNameFormatPattern.Text" xml:space="preserve">
+    <value>擷取或剪貼簿的檔案名稱配置:</value>
+  </data>
+  <data name="lblNameFormatPatternActiveWindow.Text" xml:space="preserve">
+    <value>資料夾監控自動上傳的檔案名稱設置:</value>
+  </data>
+  <data name="lblNameFormatPatternPreview.Text" xml:space="preserve">
+    <value>預覽:</value>
+  </data>
+  <data name="lblNameFormatPatternPreviewActiveWindow.Text" xml:space="preserve">
+    <value>預覽:</value>
+  </data>
+  <data name="lblScreenRecorderFixedDuration.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="lblScreenRecorderStartDelay.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="lblScreenRecordFPS.Text" xml:space="preserve">
+    <value>螢幕錄製 FPS:</value>
+  </data>
+  <data name="lblScreenshotDelayInfo.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="lblThumbnailHeight.Text" xml:space="preserve">
+    <value>高:</value>
+  </data>
+  <data name="lblThumbnailName.Text" xml:space="preserve">
+    <value>縮略圖名稱:</value>
+  </data>
+  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
+    <value>預覽</value>
+  </data>
+  <data name="lblThumbnailWidth.Text" xml:space="preserve">
+    <value>寬:</value>
+  </data>
+  <data name="lblUseImageFormat2After.Text" xml:space="preserve">
+    <value>圖片超出大小則使用 "圖片格式 2":</value>
+  </data>
+  <data name="lblUseImageFormat2AfterHint.Text" xml:space="preserve">
+    <value>kB (0 停用)</value>
+  </data>
+  <data name="tpActions.Text" xml:space="preserve">
+    <value>動作</value>
+  </data>
+  <data name="tpAdvanced.Text" xml:space="preserve">
+    <value>進階</value>
+  </data>
+  <data name="tpCapture.Text" xml:space="preserve">
+    <value>擷取</value>
+  </data>
+  <data name="tpEffects.Text" xml:space="preserve">
+    <value>效果</value>
+  </data>
+  <data name="tpGeneral.Text" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="tpImage.Text" xml:space="preserve">
+    <value>圖片</value>
+  </data>
+  <data name="tpIndexer.Text" xml:space="preserve">
+    <value>索引</value>
+  </data>
+  <data name="tpRectangleAnnotate.Text" xml:space="preserve">
+    <value>螢幕畫筆</value>
+  </data>
+  <data name="tpRegionCapture.Text" xml:space="preserve">
+    <value>區域擷取</value>
+  </data>
+  <data name="tpScreenRecorder.Text" xml:space="preserve">
+    <value>螢幕錄製器</value>
+  </data>
+  <data name="tpTask.Text" xml:space="preserve">
+    <value>任務</value>
+  </data>
+  <data name="tpThumbnail.Text" xml:space="preserve">
+    <value>縮略圖</value>
+  </data>
+  <data name="tpUpload.Text" xml:space="preserve">
+    <value>上傳</value>
+  </data>
+  <data name="tpUploadClipboard.Text" xml:space="preserve">
+    <value>剪貼簿上傳</value>
+  </data>
+  <data name="tpWatchFolders.Text" xml:space="preserve">
+    <value>監視資料夾</value>
+  </data>
+  <data name="tsmiFileUploaders.Text" xml:space="preserve">
+    <value>檔案上傳者</value>
+  </data>
+  <data name="tsmiImageUploaders.Text" xml:space="preserve">
+    <value>圖片上傳</value>
+  </data>
+  <data name="tsmiTextUploaders.Text" xml:space="preserve">
+    <value>文字上傳者</value>
+  </data>
+  <data name="tsmiURLSharingServices.Text" xml:space="preserve">
+    <value>URL 分享服務</value>
+  </data>
+  <data name="tsmiURLShorteners.Text" xml:space="preserve">
+    <value>URL 短縮</value>
+  </data>
+  <data name="cbNameFormatCustomTimeZone.Text" xml:space="preserve">
+    <value>使用自訂時區：</value>
+  </data>
+  <data name="cbRegionCaptureUseWindowPattern.Text" xml:space="preserve">
+    <value>使用視窗名稱模式擷取區域 (ShareX 將嘗試檢測選擇區域後面的視窗)</value>
+  </data>
+  <data name="tpFileNaming.Text" xml:space="preserve">
+    <value>檔案命名</value>
+  </data>
+  <data name="tpTools.Text" xml:space="preserve">
+    <value>工具</value>
+  </data>
+  <data name="lblCaptureCustomRegionWidth.Text" xml:space="preserve">
+    <value>寬</value>
+  </data>
+  <data name="lblCaptureCustomRegionHeight.Text" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="lblCaptureCustomRegionSelectedMonitor.Text" xml:space="preserve">
+    <value>選擇一個用於自訂區域的螢幕：</value>
+  </data>
+  <data name="cbScreenRecorderShowCursor.Text" xml:space="preserve">
+    <value>在錄製中顯示指標</value>
+  </data>
+  <data name="lblGIFEncoding.Text" xml:space="preserve">
+    <value>GIF 編碼器：</value>
+  </data>
+  <data name="btnScreenRecorderFFmpegOptions.Text" xml:space="preserve">
+    <value>螢幕錄製選項...</value>
+  </data>
+  <data name="tpScrollingCapture.Text" xml:space="preserve">
+    <value>滾動擷取</value>
+  </data>
+  <data name="chkUseDefaultToolsSettings.Text" xml:space="preserve">
+    <value>使用主視窗任務設定的工具設定</value>
+  </data>
+  <data name="tpVideoThumbnailer.Text" xml:space="preserve">
+    <value>影片縮略圖</value>
+  </data>
+</root>
