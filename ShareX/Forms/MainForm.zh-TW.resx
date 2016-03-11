@@ -658,6 +658,6 @@
     <value>最近的連結</value>
   </data>
   <data name="tsmiHideColumns.Text" xml:space="preserve">
-    <value>隱藏列</value>
+    <value>隱藏欄位</value>
   </data>
 </root>
