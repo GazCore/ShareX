@@ -163,16 +163,16 @@
     <value>網址複製到剪貼簿</value>
   </data>
   <data name="AfterUploadTasks_OpenURL" xml:space="preserve">
-    <value>開啟網址</value>
+    <value>開啟 URL</value>
   </data>
   <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
-    <value>分享網址</value>
+    <value>分享 URL</value>
   </data>
   <data name="AfterUploadTasks_ShowQRCode" xml:space="preserve">
     <value>顯示 QR 碼視窗</value>
   </data>
   <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>縮短網址</value>
+    <value>縮短 URL</value>
   </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__File__Count___0__" xml:space="preserve">
     <value>剪貼簿中的內容: 檔案 (計數: {0})</value>
@@ -408,7 +408,7 @@
     <value>推特訊息</value>
   </data>
   <data name="HotkeyType_UploadURL" xml:space="preserve">
-    <value>從網址上傳</value>
+    <value>從 URL 上傳</value>
   </data>
   <data name="HSB_ToString_" xml:space="preserve">
     <value>色調: {0:0.0}°，飽和度: {1:0.0}%，亮度: {2:0.0}%</value>
@@ -537,7 +537,7 @@
     <value>回應頭欄位</value>
   </data>
   <data name="ResponseType_RedirectionURL" xml:space="preserve">
-    <value>重新定向網址</value>
+    <value>重新定向 URL</value>
   </data>
   <data name="ResponseType_Text" xml:space="preserve">
     <value>回應文字</value>
@@ -839,7 +839,7 @@
     <value>顯示快速工作選單</value>
   </data>
   <data name="ReplCodeMenuEntry_ia_Auto_increment_alphanumeric" xml:space="preserve">
-    <value>自動增量字母數字不區分大小寫。 從左側增加 {n} 個 0</value>
+    <value>自動增加字母區分大小寫，左側增加 {n} 個 0</value>
   </data>
   <data name="ReplCodeMenuEntry_ix_Auto_increment_hexadecimal" xml:space="preserve">
     <value>自動增量十六進制數。  從左側增加 {n} 個 0</value>
